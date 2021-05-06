@@ -126,6 +126,11 @@
     }
 }
 
-@media (max-width:1600px){
-    
+@media (max-width:360px){
+    .header{
+        width: 100vw;
+    }
+    .login{
+        width: 100vw;
+    }
 }
