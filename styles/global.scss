@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-background: #FAF9F9;
+  --white-font: #FFFFFF;
+
+  --blue-119: #415A77;
+  --blue-169: #778DA9;
+  --blue-540: #233336;
+
+  --black-38: rgba(0, 0, 0, 0.38);
+  --black-font: #1E2D2F;
+}
+
+
+body {
+  background: var(--white-background);
+}
+
+body, input, textarea, button {
+  font: 600 1rem Poppins, sans-serif;
+  color: var(--white-font);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  color: var(--white-font);
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white-font);
+}
