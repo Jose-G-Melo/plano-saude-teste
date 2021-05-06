@@ -128,7 +128,13 @@
 
 @media (max-width:360px){
     .header{
-        width: 100vw;
+        padding-left: 6px;
+        span{
+            width: 55px;
+            height: 55px;
+            top: 12px;
+            left: 6px;
+        }
     }
     .login{
         width: 100vw;
@@ -136,14 +142,37 @@
 }
 
 @media (max-width:320px){
-    .header{
+    .header{   
         h1{
             font-size: 1.281rem;
         }
+    }
+}
+
+@media (max-width:375px){
+    .header{
+        padding-left: 8px;
         span{
             width: 55px;
             height: 55px;
             top: 12px;
+            left: 7px;
         }
     }
+    .login{
+        width: 100vw;
+    }
+}
+
+@media (max-width:414px){
+    .header{
+        padding-left: 10px;
+        span{
+            width: 55px;
+            height: 55px;
+            top: 12px;
+            left: 9px;
+        }
+    }
+
 }
