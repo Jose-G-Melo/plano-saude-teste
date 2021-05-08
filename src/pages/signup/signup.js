@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import styles from './signup.module.scss';
 
 export default function Signup() {
@@ -15,14 +16,16 @@ export default function Signup() {
           <form>
             <div className={styles.email}>
               <span><i className="fa fa-user fa-lg" /></span>
-              <input id="email" type="email" placeholder="Digite seu email" />
+              <input id="email" type="email" placeholder="Digite seu email" required/>
             </div>
             <div className={styles.email}>
               <span><i className="fa fa-lock fa-lg" /></span>
-              <input type="password" placeholder="Digite sua senha" />
+              <input type="password" placeholder="Digite sua senha" required/>
             </div>
           </form>
-          <input type="submit" value="ENTRAR" className={styles.enviar}/>
+          <Link href="sales">
+            <input type="submit" value="ENTRAR" className={styles.enviar}/>
+          </Link>
           <a href="">Esqueci minha senha</a>
         </div>
       </main>

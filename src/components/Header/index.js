@@ -1,14 +1,16 @@
 import React from 'react';
+import styles from './header.module.scss';
 
-export function Header() {
+export default function Header() {
     return(
-        <div>
-            <div>
-                <p>Plano</p>
-                <p>Digital</p>
+        <div className={styles.header}>
+            <div className={styles.logo}>
+                <p className={styles.plano}>Plano</p>
+                <p className={styles.digital}>Digital</p>
             </div>
-            <div>
-                <img src="email.svg" alt="corretora"/>
+            <div className={styles.welcome}>
+                <p>Olá, Maciel</p>
+                <img src="logo-corretora.jpg" alt="corretora" />
             </div>
         </div>
     );
