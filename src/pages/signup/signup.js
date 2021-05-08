@@ -14,11 +14,11 @@ export default function Signup() {
           <p>Canal do corretor</p>
           <h1>Login</h1>
           <form>
-            <div className={styles.email}>
+            <div className={styles.inputLogin}>
               <span><i className="fa fa-user fa-lg" /></span>
               <input id="email" type="email" placeholder="Digite seu email" required/>
             </div>
-            <div className={styles.email}>
+            <div className={styles.inputLogin}>
               <span><i className="fa fa-lock fa-lg" /></span>
               <input type="password" placeholder="Digite sua senha" required/>
             </div>
